@@ -1,24 +1,17 @@
 [
     {
-        "mnemonic": "n", 
-        "caption": "Preferences", 
-        "id": "preferences", 
+        "mnemonic": "n",
+        "caption": "Preferences",
+        "id": "preferences",
         "children": [
             {
-                "mnemonic": "P", 
-                "caption": "Package Settings", 
-                "id": "package-settings", 
+                "mnemonic": "P",
+                "caption": "Package Settings",
+                "id": "package-settings",
                 "children": [
                     {
-                        "caption": "Hungry Backspace", 
+                        "caption": "Hungry Backspace",
                         "children": [
-                            {
-                                "caption": "README",
-                                "command": "open_file",
-                                "args": {
-                                    "file": "${packages}/Hungry Backspace/README.md"
-                                }
-                            },
                             { "caption": "-" },
                             // Settings - Default
                             {
@@ -52,7 +45,7 @@
                                 "args": {
                                     "file": "${packages}/User/Default ($platform).sublime-keymap"
                                 }
-                            }, 
+                            },
                             {
                                 "caption": "-"
                             }
